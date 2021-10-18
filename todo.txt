@@ -1,1 +1,19 @@
-Aulas
+Usando PSR4 para fazer carregamento dinamico das minhas classes
+
+Vou fazer a instalação via composer no prompt de comando
+
+cmd->{
+	-navegar até a pasta
+}
+
+no meu index vou chamar o metodo run, vai me dar erro
+
+vou criar um arquivo chamado composer.json e colocar os seguintes comandos
+
+Orientação do composer->{
+	autoload->psr-4->DankiCode\\->DankiCode/
+}
+
+vou no cmd e coloco o comando composer dump-autoload
+
+vou no meu index e dar um require no vendor autoload.php
